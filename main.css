@@ -15,6 +15,11 @@ html{
     background-color: #ffffff;
 }
 
+a{
+    text-decoration: none;
+    color: #49B17C;
+}
+
 /*----------NAVBAR----------*/
 
 #navbar{
@@ -172,11 +177,6 @@ html{
     
 }
 
-#welcome-image{
-    width: 100vw;
-    height: auto;
-    
-}
 
 .welcome-paragraph-wrapper{
     display: flex;
@@ -189,7 +189,7 @@ html{
     font-size: 32px;
     width: 80%;
     padding-bottom: 110px;
-    color:
+    color: #404040;
 }
 
 #school-icon-wrapper{
@@ -202,3 +202,132 @@ html{
     margin-bottom: 50px;
     color: #49B17C;
 }
+
+
+/*----------CARDS----------*/
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    width: 90vw;
+    box-shadow: 0px 0px 30px #a9a9a9;
+    background-color: #6FCC9D;
+    margin-bottom: 100px;
+    border-radius: 30px
+}
+
+
+.welcome-image{
+    width: 100%;
+    border-radius: 30px;
+    height:auto;
+}
+
+.card-text{
+    font-size: 32px;
+    text-align: center;
+    border: 2px solid #6FCC9D;
+    margin: 30px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    border-radius: 20px;
+    line-height: 2.5em;
+    background-color: #D0F5E2;
+    
+}
+
+.card-text h3{
+    font-size: 60px;
+    
+}
+
+.card-text p{
+    font-size: 40px
+}
+
+.card-img{
+    max-height: 700px;
+}
+
+#footer-nav{
+    background-color: #6FCC9D;
+}
+
+footer{
+    background-color: #6FCC9D;
+    padding-top: 50px;
+}
+
+.footer-links{
+    color: #FFFFFF;
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-wrapper{
+    display: flex;
+    flex-direction: row;
+    padding: 70px;
+    margin: auto;
+}
+
+.social-links{
+    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: auto;
+    
+}
+
+.copywright-wrapper{
+    
+    background-color: #2C9A62;
+    display: flex;
+    height: 300px;
+    margin: auto;
+    justify-content: center;
+}
+
+.copywright-logo{
+    align-self: center;
+    height: 150px;
+    margin-left: -20px;
+}
+
+.copywright-text{
+    font-size: 40px;
+    color: #FFFFFF;
+    align-self: center;
+    padding:0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
