@@ -124,7 +124,7 @@ html{
 
 #mobile-banner-wrapper{
     background-color: #D0F5E2;
-    height: 450px;
+    height: 375px;
     margin-top: -6px;
     border-bottom-left-radius: 30%;
     border-bottom-right-radius: 30%;
@@ -159,20 +159,20 @@ html{
 
 #welcome-text{
     margin: auto;
-    padding-top: 200px;
+    padding-top: 50px;
     font-size: 70px;
     color: #2C9A62;
 }
 
 .fa-angle-down{
-    font-size: 150px;
+    font-size: 100px;
     color: #49B17C;
     
 }
 
 #angle-wrapper{
     text-align: center;
-    margin-top: 75px
+    margin-top: 0px
 }
 
 
