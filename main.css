@@ -2,12 +2,12 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', serif;
     font-weight: 700;
 }
 
 html{
-    background-color: #6FCC9D;
+    background-color: #ffffff;
 }
 
 /*----------NAVBAR----------*/
@@ -19,7 +19,7 @@ html{
 }
 
 #logo{
-    height: 150px;
+    height: 250px;
     width: auto;
     
 }
@@ -27,6 +27,7 @@ html{
 .logo-wrapper{
     width: 100%;
     text-align: center;
+    height: 250px;
 }
 
 
@@ -46,12 +47,16 @@ html{
 
 .dropbtn{
     width: 100%;
-    height: 50px;
-    font-size: 16px;
+    height: 100px;
+    font-size: 50px;
     -webkit-appearance: none;
     border-radius: 0;
+    background-color: #D0F5E2;
+    color: #2C9A62; 
+    border-style: none;
     
 }
+
 
 .dropdown {
   position: relative;
@@ -70,18 +75,19 @@ html{
 }
 
 .dropdown-content a {
-  color: black;
-  padding: 12px 16px;
+  color:#2C9A62;
+  padding-top:20px ;
   text-decoration: none;
   display: block;
+  font-size: 50px;
+    height: 100px;
 }
 
 .dropdown:hover .dropdown-content {display: block;}
 
 .dropdown-content a:hover {background-color: #ddd;}
 
-.dropdown:hover .dropbtn {background-color: #ffffff;}
-
+.dropdown:hover .dropbtn {background-color: #6FCC9D;}
 
 /*----------BANNER IMAGE/TYPEWRITER----------*/
 
@@ -95,15 +101,16 @@ html{
     margin-top: -5px;
     background-color: #FFFFFF;
     height: 200px;
+    display: none;
 }
 
 .typewriter h1{
-    color: #6FCC9D;
+    color: #000000;
     text-align: center;
-    font-size: 38px;
+    font-size: 50px;
     padding-top: 40px;
-    
 }
+
 
 .banner-text{
     position: absolute;
@@ -115,6 +122,25 @@ html{
     z-index: 5;
     text-align: center;
 }
+
+#mobile-banner-wrapper{
+    background-color: #ffffff;
+    height: 450px;
+    margin-top: -6px;
+}
+
+#mobile-banner-text{
+    font-size: 50px;
+    margin-left: 20px;
+    text-align: left;
+    padding-top: 50px;
+    background-color: #ffffff;
+    color: #2C9A62; 
+    font-family: 'Montserrat';
+    font-weight: 600;
+
+}
+
 
 .color-overlay{
     background-color:#6FCC9D;
