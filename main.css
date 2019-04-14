@@ -172,17 +172,6 @@ html{
     
 }
 
-.fa-angle-down{
-    font-size: 100px;
-    color: #2C9A62;
-    
-}
-
-#angle-wrapper{
-    text-align: center;
-    margin-top: 0px;
-}
-
 #welcome-image{
     width: 100vw;
     height: auto;
