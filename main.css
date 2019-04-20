@@ -271,6 +271,9 @@ a{
 footer{
     background-color: #6FCC9D;
     padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .footer-links{
@@ -282,21 +285,20 @@ footer{
 }
 
 .social-wrapper{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 50px;
+    display: inline-block;
     margin: auto;
+    text-align: center;
 }
 
 .social-links{
     font-size: 20px;
-    padding: 20px;
+    padding: 15px;
     text-align: center;
     color: #FFFFFF;
     margin: auto;
     
 }
+
 
 .copywright-wrapper{
     
