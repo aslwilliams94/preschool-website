@@ -386,6 +386,7 @@ footer{
         line-height: 45px;
     }
     
+    
     .card{
         width: 75vw;
         
@@ -494,6 +495,10 @@ footer{
     
     #banner-card{
         box-shadow: 5px 5px 5px;
+    }
+    
+    #welcome-wrapper{
+        height: 300px;
     }
     
     .typewriter{
