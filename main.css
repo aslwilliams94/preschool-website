@@ -28,6 +28,7 @@ a{
     align-items: center;
 }
 
+
 #logo{
     height: 250px;
     width: auto;
@@ -53,6 +54,9 @@ a{
     
 }
 
+.nav-content{
+    display: none;
+}
 
 
 .dropbtn{
@@ -247,8 +251,8 @@ a{
     font-size: 40px
 }
 
-.card-img{
-    max-height: 700px;
+.card-img img{
+    height: 700px;
 }
 
 #footer-nav{
@@ -308,6 +312,93 @@ footer{
 }
 
 
+/*----------MEDIA QUERIES----------*/
+
+@media (min-width: 768px) and (max-width: 991px){
+    #navbar{
+        display: flex;
+        align-items: center;
+        height: 10vh;
+    }
+    
+    .logo-wrapper{
+        display: flex;
+        width: 25%;
+        height: 100%;
+        align-items: center;
+    }
+    
+    #logo{
+        height: 80px;
+        
+    }
+    
+    .nav-link{
+        padding:20px;
+        font-size: 18px;
+    }
+    
+    #nav-list{
+        display: none;
+    }
+    
+    .nav-content{
+        display: flex;
+        width: 100vw;
+    }
+    
+    #mobile-banner-wrapper{
+        height:300px;
+    }
+    
+    #mobile-banner-text{
+        font-size: 50px;
+    }
+    
+    #welcome-text{
+        font-size: 50px;
+        margin:auto;
+    }
+    
+    #welcome-paragraph{
+        font-size: 25px;
+        line-height: 45px;
+    }
+    
+    .card{
+        width: 75vw;
+        
+    }
+    
+    .card-img img{
+        height:400px;
+    }
+    
+    .card-text{
+        height: 100px;
+    }
+    
+    .card-text h3{
+        font-size: 45px;
+        margin-top: -20px;
+    }
+    
+    .card-text p{
+        font-size: 30px;
+    }
+    
+    .footer-links{
+        font-size:30px;
+    }
+    
+    .copywright-wrapper{
+        height: 200px;
+    }
+    
+    .copywright-text{
+        font-size: 25px;
+    }
+    }
 
 
 
