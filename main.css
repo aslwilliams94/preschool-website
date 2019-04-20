@@ -150,13 +150,12 @@ a{
 }
 
 #mobile-banner-text{
-    font-size: 70px;
+    font-size: 40px;
     margin: auto;
     text-align: center;
-    color: #FFFFFF; 
+    color: #FFFFFF;
     font-family: 'Montserrat';
-    width: 80%
-
+    width: 80%;
 }
 
 
@@ -178,12 +177,11 @@ a{
 
 #welcome-text{
     margin: auto;
-    font-size: 70px;
+    font-size: 30px;
     color: #6FCC9D;
     margin-top: 30px;
     width: 91%;
     padding-top: 20px;
-    
 }
 
 
@@ -195,8 +193,9 @@ a{
 #welcome-paragraph{
     margin: auto;
     text-align: center;
-    font-size: 32px;
-    width: 80%;
+    font-size: 20px;
+    width: 85%;
+    line-height: 40px;
     padding-bottom: 110px;
     color: #404040;
 }
@@ -207,8 +206,9 @@ a{
 
 #school-icon{
     margin: auto;
-    font-size: 100px;
+    font-size: 50px;
     margin-bottom: 50px;
+    margin-top: -100px;
     color: #49B17C;
 }
 
@@ -237,27 +237,31 @@ a{
 .card-text{
     font-size: 32px;
     text-align: center;
-    border: 2px solid #6FCC9D;
-    margin: 30px;
+    border: 10px solid #6FCC9D;
+    margin: auto;
     padding-top: 75px;
     padding-bottom: 75px;
     border-radius: 20px;
-    line-height: 2.5em;
     background-color: #D0F5E2;
+    line-height: 50px;
+    
     
 }
 
 .card-text h3{
-    font-size: 60px;
+    font-size: 30px;
+
     
 }
 
 .card-text p{
-    font-size: 40px
+    font-size: 20px;
+    display: none;
 }
 
 .card-img img{
-    height: 700px;
+    height: 300px;
+    width: 100%;
 }
 
 #footer-nav{
@@ -271,7 +275,7 @@ footer{
 
 .footer-links{
     color: #FFFFFF;
-    font-size: 50px;
+    font-size: 20px;
     display: block;
     text-align: center;
     padding: 20px;
@@ -280,12 +284,13 @@ footer{
 .social-wrapper{
     display: flex;
     flex-direction: row;
-    padding: 70px;
+    flex-wrap: wrap;
+    padding: 50px;
     margin: auto;
 }
 
 .social-links{
-    font-size: 50px;
+    font-size: 20px;
     padding: 20px;
     text-align: center;
     color: #FFFFFF;
@@ -304,16 +309,16 @@ footer{
 
 .copywright-logo{
     align-self: center;
-    height: 150px;
-    margin-left: -20px;
+    height: 75px;
 }
 
 .copywright-text{
-    font-size: 40px;
+    font-size: 20px;
     color: #FFFFFF;
     align-self: center;
     padding:0;
     margin: 0;
+    width: 60%;
 }
 
 
