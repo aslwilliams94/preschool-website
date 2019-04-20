@@ -287,6 +287,7 @@ footer{
 .social-wrapper{
     display: inline-block;
     margin: auto;
+    padding: 20px 0 40px 0;
     text-align: center;
 }
 
@@ -304,7 +305,8 @@ footer{
     
     background-color: #2C9A62;
     display: flex;
-    height: 300px;
+    height: 100px;
+    width:100%;
     margin: auto;
     justify-content: center;
 }
@@ -315,7 +317,7 @@ footer{
 }
 
 .copywright-text{
-    font-size: 20px;
+    font-size: 18px;
     color: #FFFFFF;
     align-self: center;
     padding:0;
