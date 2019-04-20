@@ -202,6 +202,7 @@ a{
 
 #school-icon-wrapper{
     display: flex;
+    
 }
 
 #school-icon{
@@ -328,11 +329,12 @@ footer{
 
 /*----------MEDIA QUERIES----------*/
 
+/*----------Tablet----------*/
 @media (min-width: 768px) and (max-width: 991px){
     #navbar{
         display: flex;
         align-items: center;
-        height: 10vh;
+        height: 15vh;
     }
     
     .logo-wrapper{
@@ -369,6 +371,11 @@ footer{
         font-size: 50px;
     }
     
+    #school-icon{
+        margin-bottom: 75px;
+        margin-top: 0;
+    }
+    
     #welcome-text{
         font-size: 50px;
         margin:auto;
@@ -399,6 +406,7 @@ footer{
     
     .card-text p{
         font-size: 30px;
+        display: block;
     }
     
     .footer-links{
@@ -407,6 +415,7 @@ footer{
     
     .copywright-wrapper{
         height: 200px;
+        text-align: center;
     }
     
     .copywright-text{
@@ -414,8 +423,151 @@ footer{
     }
     }
 
+/*----------Computer----------*/
 
+@media (min-width: 991px){
+    
 
+    #content-wrapper{
+        width: 75vw;
+        margin: auto;
+        background-color: #FFFFFF;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    #navbar{
+        display: flex;
+        height: 12vh;
+        width: 100vw;
+        position: fixed;
+        background-color:#D0F5E2;
+    }
+    
+    .logo-wrapper{
+        width: 50vw;;
+    }
+    
+    #logo{
+        height: 150%;
+        width: auto;
+        margin: auto;
+    }
+    
+    #nav-list{
+        display: none;
+        
+    }
+    
+    .nav-content{
+        display: flex;
+        margin: auto 20px auto auto;
+        
+    }
+    
+    .nav-link{
+        margin: 0 2vw;
+        font-size: 20px;
+        color: #2C9A62;
+    }
+    
+    .nav-link:hover{
+        color: #FFFFFF;
+    }
+    
+    .banner-img{
+        width: 100%;
+        margin-top: 5vh;
+        
+    
+    }
+    
+    .banner-wrapper{
+        margin:auto;
+        text-align: center;
+        
+    }
+    
+    #mobile-banner-wrapper{
+        display: none;
+    }
+    
+    #banner-card{
+        box-shadow: 5px 5px 5px;
+    }
+    
+    .typewriter{
+        display: flex;
+        background-color: #6FCC9D;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .typewriter h1{
+        color: #ffffff;
+    
+    }
+    
+    #welcome-text{
+        font-size: 60px;
+    }
+    
+    #welcome-paragraph{
+        width: 40vw;
+    }
+    
+    .card{
+        width: 35%;
+        height: auto;
+    
+    }
+    .card-text{
+        line-height: 35px;
+    }
+    .card-text h3{
+        display: block;
+        font-size: 35px;
+        padding: auto 5px;
+    }
+    .card-text p{
+        display: inline;
+        font-size: 18px;
+
+    }
+    
+    #footer-nav{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer-links{
+        font-size: 25px;
+    }
+    
+    .footer-links:hover{
+        color: #49B17C;
+    }
+    
+    .social-links{
+        font-size: 35px;
+    }
+    
+    .copywright-wrapper{
+        display: flex;
+        height: 12vh;
+    }
+    .copywright-text{
+        font-size: 25px;
+        align-self: center;
+        width: auto;
+    }
+    
+    .copywright-logo{
+        height: 100%;
+    }
+    
+}
+    
 
 
 
