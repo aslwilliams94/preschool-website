@@ -368,7 +368,7 @@ footer{
     }
     
     #mobile-banner-wrapper{
-        height:300px;
+        height:100px;
     }
     
     #mobile-banner-text{
@@ -534,8 +534,10 @@ footer{
     }
     
     #welcome-wrapper{
-        height: 250px;
-    }
+    text-align: center;
+    height: 150px;
+    display: flex;
+}
     
     .leadership-wrapper{
         text-align: center;
@@ -558,7 +560,7 @@ footer{
     
     #welcome-paragraph{
         width: 40vw;
-        padding-bottom: 50px;
+        
     }
     
     
@@ -571,6 +573,7 @@ footer{
     
     .card-text{
         line-height: 35px;
+        padding: 60px 0px;
     }
     .card-text h3{
         display: block;
