@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Sugar Hill Primary School</title>
-        <link rel="stylesheet" type="text/css" href="profile1.css">
+        <link rel="stylesheet" type="text/css" href="contact.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <meta name="viewport" content="width=device-width">
@@ -13,6 +13,7 @@
         <link rel="mask-icon" href="assets/safari-pinned-tab.svg" color="#5bbad5">
         <meta name="msapplication-TileColor" content="#da532c">
         <meta name="theme-color" content="#ffffff">
+        
 
 
     </head>
@@ -38,20 +39,47 @@
         </div>
     </nav>
     <div id="content-wrapper">
+        <div class = "banner-wrapper">
+            <img src ="assets/jonathan-riley-118591-unsplash.jpg" class = "banner-img">
+        </div>
         <div id = "mobile-banner-wrapper">
-            <h1 id="mobile-banner-text">Head of Preschool</h1>
+            <h1 id="mobile-banner-text">Contact Us</h1>
         </div>
         <div id ="welcome-wrapper">
-            <h2 id ="welcome-text">Carolyn Johnson, M.Ed.</h2>
-        </div>
-        <div class = "profile-pic-wrapper">
-            <img src = "assets/adult-attractive-beautiful-1197132.jpg" class = "profile-pic">
+            <h2 id ="welcome-text">See Us In Action</h2>
         </div>
         
         <div class = "welcome-paragraph-wrapper">
-            <p id = "welcome-paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue tellus vel magna fringilla, vitae consequat orci ultrices. Integer vel lacinia ex, id tincidunt neque. Mauris commodo ut nisl sit amet porttitor. Fusce vel scelerisque sapien, id porttitor nisi. Nulla et nibh ac ex ornare viverra quis quis nunc. Cras quis arcu sodales, cursus ex non, gravida eros. Praesent elementum lacus a ipsum elementum porta eu non neque. Vestibulum nulla mauris, aliquet vitae risus in, suscipit semper dui. Praesent porta mi sapien, a tempor sapien mollis ac. Vivamus ultrices, eros ac porttitor tempor, massa ex tincidunt erat, quis varius ligula ex id ipsum. Nullam id posuere neque. Nulla facilisi. Donec tincidunt, metus in fringilla eleifend, eros elit vulputate mauris, at posuere dolor tortor ac ante.</p>
+            <p id = "welcome-paragraph">We are located 30 miles outside Manhattan in a nice, suburban town. A nice 40 minute drive, our campus is also easily accessible by bus and ferry. <br> <br>Sugar Hill was designed by some of the region's best architects and planners. To see the beauty for yourself, please complete the form or call us directly at (123)456-7891.</p>
         </div>
-        <a href ="about.html" class="back-button">Back to About Page</a>
+        <form>
+            <p>
+                <label>Name<br>
+                    <input type="text" name="name" style="font-size:20px;" required>
+                </label>
+            </p>
+            <p>
+                <label>Email<br>
+                    <input type="email" name="email" style="font-size:20px;" required>
+                </label>
+            </p>
+            <p>
+                <label>Phone<br>
+                    <input type="number" name="phone_number" style="font-size:20px;" required>
+                </label>
+            </p>
+            <p>
+                <label>Tour Date/Time<br>
+                    <input type="datetime-local" name="tour_time" style="font-size:20px;" required>
+                </label>
+            </p>
+            <p>
+                <label>Additional Comments<br>
+                    <textarea name="comments" maxlength="500" cols="50" rows="15"></textarea>
+                </label>
+            </p>
+            <p id = "form-button"><button>Submit</button></p>
+        </form>
         </div>
         <footer>
             <div id="footer-nav">

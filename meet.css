@@ -28,7 +28,6 @@ a{
     width: 100%;
     background-color: #D0F5E2;
     align-items: center;
-    z-index: 1;
 }
 
 
@@ -38,6 +37,10 @@ a{
     margin:auto;
 }
 
+.logo-link{
+    height: 100%;
+    margin:auto;
+}
 .logo-wrapper{
     width: 100%;
     text-align: center;
@@ -109,28 +112,11 @@ a{
 
 .dropdown:hover .dropbtn {background-color: #6FCC9D;}
 
-/*----------BANNER IMAGE/TYPEWRITER----------*/
+/*----------BANNER IMAGE----------*/
 
 .banner-img{
     width:100%;
     height: auto;
-}
-
-.typewriter{
-    width: 100%;
-    margin-top: -5px;
-    background-color: #FFFFFF;
-    height: 200px;
-    display: none;
-    border-bottom-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
-
-.typewriter h1{
-    color: #000000;
-    text-align: center;
-    font-size: 50px;
-    padding-top: 40px;
 }
 
 
@@ -147,7 +133,7 @@ a{
 
 #mobile-banner-wrapper{
     background-color: #6FCC9D;
-    height: 375px;
+    height: 150px;
     margin-top: -6px;
     display: flex;
 }
@@ -174,13 +160,13 @@ a{
 
 #welcome-wrapper{
     text-align: center;
-    height: 200px;
+    height: 300px;
     display: flex;
 }
 
 #welcome-text{
     margin: auto;
-    font-size: 30px;
+    font-size: 50px;
     color: #6FCC9D;
     margin-top: 30px;
     width: 91%;
@@ -224,7 +210,7 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    width: 90vw;
+    width: 85vw;
     box-shadow: 0px 0px 30px #a9a9a9;
     background-color: #6FCC9D;
     margin-bottom: 100px;
@@ -238,13 +224,24 @@ a{
     height:auto;
 }
 
+.leadership-wrapper{
+        text-align: center;
+        font-size: 25px;
+        height: 150px;
+        color: #6FCC9D;
+    }
+    
+    #leader-card-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
+
 .card-text{
     font-size: 32px;
     text-align: center;
     border: 10px solid #6FCC9D;
     margin: auto;
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding: 75px 5px 75px 5px;
     border-radius: 20px;
     background-color: #D0F5E2;
     line-height: 50px;
@@ -260,13 +257,13 @@ a{
 
 .card-text p{
     font-size: 20px;
-    display: none;
 }
 
 .card-img img{
-    height: 300px;
     width: 100%;
 }
+
+/*----------FOOTER----------*/
 
 #footer-nav{
     background-color: #6FCC9D;
@@ -304,6 +301,11 @@ footer{
     
 }
 
+.logo-footer-link{
+        display: flex;
+        height: 100%;
+    }
+
 
 .copywright-wrapper{
     
@@ -338,7 +340,6 @@ footer{
         display: flex;
         align-items: center;
         height: 15vh;
-        z-index: 1;
     }
     
     .logo-wrapper{
@@ -347,6 +348,7 @@ footer{
         height: 100%;
         align-items: center;
     }
+    
     
     #logo{
         height: 100%;
@@ -364,10 +366,11 @@ footer{
     
     .nav-content{
         display: flex;
+        
     }
     
     #mobile-banner-wrapper{
-        height:300px;
+        height:100px;
     }
     
     #mobile-banner-text{
@@ -389,32 +392,51 @@ footer{
         line-height: 45px;
     }
     
+    .leadership-wrapper{
+        text-align: center;
+        font-size: 25px;
+        height: 150px;
+        color: #6FCC9D;
+    }
+    
+    #leader-card-wrapper{
+        display: flex;
+        flex-direction: column;
+    }
     
     .card{
-        width: 75vw;
+        width: 35vw;
         
     }
     
     .card-img img{
-        height:400px;
+        width: 100%;
     }
     
     .card-text{
-        height: 100px;
+        display: flex;
+        flex-direction: column;
+        line-height: normal;
+
+        
     }
     
     .card-text h3{
-        font-size: 45px;
-        margin-top: -20px;
+        font-size: 30px;
     }
     
     .card-text p{
-        font-size: 30px;
+        font-size: 20px;
         display: block;
     }
     
     .footer-links{
         font-size:30px;
+    }
+    
+    .logo-footer-link{
+        display: flex;
+        height: 100%;
     }
     
     .copywright-wrapper{
@@ -446,7 +468,6 @@ footer{
         width: 100vw;
         position: fixed;
         background-color:#D0F5E2;
-        z-index: 1;
     }
     
     .logo-wrapper{
@@ -459,6 +480,18 @@ footer{
         margin: auto;
     }
     
+    .logo-link{
+        display: flex;
+        height: 100%;
+        margin:auto;
+    }
+    
+    .logo-footer-link{
+        display: flex;
+        height: 100%;
+    }
+  
+    
     #nav-list{
         display: none;
         
@@ -469,8 +502,7 @@ footer{
         margin: auto 20px auto auto;
         width:50%;
         text-align: center;
-        align-items:center;
-        
+        align-items:center;   
     }
     
     .nav-link{
@@ -497,28 +529,34 @@ footer{
     }
     
     #mobile-banner-wrapper{
-        display: none;
+        height: 100px;
     }
+    
     
     #banner-card{
         box-shadow: 5px 5px 5px;
     }
     
     #welcome-wrapper{
-        height: 300px;
+    text-align: center;
+    height: 150px;
+    display: flex;
+}
+    
+    .leadership-wrapper{
+        text-align: center;
+        font-size: 25px;
+        height: 150px;
+        color: #6FCC9D;
     }
     
-    .typewriter{
+    #leader-card-wrapper{
         display: flex;
-        background-color: #6FCC9D;
+        flex-direction: row;
         width: 100%;
-        justify-content: center;
     }
     
-    .typewriter h1{
-        color: #ffffff;
     
-    }
     
     #welcome-text{
         font-size: 60px;
@@ -526,12 +564,10 @@ footer{
     
     #welcome-paragraph{
         width: 40vw;
+        
     }
     
-    #card-wrapper{
-        display: flex;
-        flex-direction: row;
-    }
+    
     
     .card{
         width: 25%;
@@ -539,15 +575,13 @@ footer{
     
     }
     
-    .card:hover{
-        opacity: .6;
-    }
     .card-text{
         line-height: 35px;
+        padding: 60px 0px;
     }
     .card-text h3{
         display: block;
-        font-size: 35px;
+        font-size: 30px;
         padding: auto 5px;
     }
     .card-text p{
@@ -589,21 +623,6 @@ footer{
     
 }
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
