@@ -28,6 +28,7 @@ a{
     width: 100%;
     background-color: #D0F5E2;
     align-items: center;
+    z-index: 1;
 }
 
 
@@ -335,6 +336,7 @@ footer{
         display: flex;
         align-items: center;
         height: 15vh;
+        z-index: 1;
     }
     
     .logo-wrapper{
@@ -360,7 +362,6 @@ footer{
     
     .nav-content{
         display: flex;
-        width: 100vw;
     }
     
     #mobile-banner-wrapper{
@@ -443,6 +444,7 @@ footer{
         width: 100vw;
         position: fixed;
         background-color:#D0F5E2;
+        z-index: 1;
     }
     
     .logo-wrapper{
@@ -463,6 +465,9 @@ footer{
     .nav-content{
         display: flex;
         margin: auto 20px auto auto;
+        width:50%;
+        text-align: center;
+        align-items:center;
         
     }
     
@@ -521,10 +526,19 @@ footer{
         width: 40vw;
     }
     
+    #card-wrapper{
+        display: flex;
+        flex-direction: row;
+    }
+    
     .card{
-        width: 35%;
+        width: 25%;
         height: auto;
     
+    }
+    
+    .card:hover{
+        opacity: .6;
     }
     .card-text{
         line-height: 35px;
